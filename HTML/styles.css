@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 40px;
+    transition: 1s;
+}
+.cards:hover{
+    background-color: cornflowerblue;
+}
+
+.sports{
+    border: 2px solid black;
+    width: 1200px
+}
+.texto{
+    font-size: 1.2em;
+}
+.title{
+    font-size: 2em;
+}
+
+#main{
+    font-size: 3.5em;
+}
+
+#enlace{
+    font-size: 1em;
+}
+
+#enlace:hover{
+    background-color: aquamarine;
+}
+}
+

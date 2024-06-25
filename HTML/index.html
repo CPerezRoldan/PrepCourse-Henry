@@ -4,17 +4,19 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <header>
-          <h1> Espacio de aventura y deportes extremos </h1>
+        <div>
+           <h1 class="title" id="main"> Espacio de aventura y deportes extremos </h1>
 
               <p>Mi nombre es CHARLES JOSE PEREZ ROLDAN y esta página es para ofrecer servicios como guía de aventura.</p>
               <span> HOME </span>
               <span> BUNGEE JUMPING </span>
-              <span> ESCALADA </span>
-              <span> RAPPEL </span> 
-
+              <span> ESCALADA </span>              
+              <span> RAPPEL </span>  
+        </div>
               
         </header>
 
@@ -22,60 +24,58 @@
             <section>
                 
 
-            <h2>Deportes y planes para divertirse.</h2>
+            <h2 class="title">Deportes y planes para divertirse.</h2>
             
-            <article>
-            <h3>Bungee Jumping</h3>
+            <article class="cards">
+            <h3 class="title">Bungee Jumping</h3>
 
-            <img src="bungee-jumping.jpg"/>
+            <img src="bungee-jumping.jpg" class="sports"/>
 
-            <div>
-                <P>Este es un deporte extremo que no requiere de experiencia y puede ser practicado por cualquier persona que pese entre los 50kg y 100kg.</P>
-                <p>Si quieres una descarga de adrenalina y librarte del miedo a las alturas esta aventura es para ti.</p>
-            </div>
+                <p class="texto">Este es un deporte extremo que no requiere de experiencia y puede ser practicado por cualquier persona que pese entre los 50kg y 100kg.</P>
+                <p class="texto">Si quieres una descarga de adrenalina y librarte del miedo a las alturas esta aventura es para ti.</p>
+            
             </article>
 
             <hr />
 
-            <article>
-            <h3>Escalada Deportiva</h3>
+            <article class="cards">
+            <h3 class="title">Escalada Deportiva</h3>
 
-            <img src="climbing.jpg"/>
+            <img src="climbing.jpg" class="sports"/>
 
-            <p>Aquí tienes tres razones para iniciar en este grandioso deporte.</p>
+            <p class="texto">Aquí tienes tres razones para iniciar en este grandioso deporte.</p>
             
             <ol>
-                <li>No requiere de experiencia pues hay niveles para principiantes.</li>
-                <li>Estarás seguro en todo momento por un guía que será tu cordada o belayer.</li>
-                <li>Puede ser practicado por cualquier persona independientemente de su peso o edad.</li>
+                <li class="texto">No requiere de experiencia pues hay niveles para principiantes.</li>
+                <li class="texto">Estarás seguro en todo momento por un guía que será tu cordada o belayer.</li>
+                <li class="texto">Puede ser practicado por cualquier persona independientemente de su peso o edad.</li>
             </ol>
             </article>
 
             <hr />
 
-            <article>
-            <h3>Rappel</h3>
+            <article class="cards">
+            <h3 class="title">Rappel</h3>
 
-            <img src="rappel.jpg"/>
+            <img src="rappel.jpg" class="sports"/>
 
-            <p>Aquí tienes tres razones para iniciar en este deporte.</p>
+            <p class="texto">Aquí tienes tres razones para iniciar en este deporte.</p>
 
             <ul>
-                <li>No requiere de tanto esfuerzo físico como la escalada.</li>
-                <li>Puede ser una actividad en familia ya que hasta los niños puede realizar esta actividad.</li>
-                <li>Es un deporte muy seguro pues tendrás el acompañamiento de guías que te enseñen y un asegurador al momento de la actividad.</li>
+                <li class="texto">No requiere de tanto esfuerzo físico como la escalada.</li>
+                <li class="texto">Puede ser una actividad en familia ya que hasta los niños puede realizar esta actividad.</li>
+                <li class="texto">Es un deporte muy seguro pues tendrás el acompañamiento de guías que te enseñen y un asegurador al momento de la actividad.</li>
             </ul>
             </article>
-
             </section>
         </main>
 
         <hr />
 
         <footer>
-            <p>A continuación tendrás un formulario de contacto, dejanos tus datos y nos pondremos en contacto contigo.</p>
+            <p class="texto">A continuación tendrás un formulario de contacto, dejanos tus datos y nos pondremos en contacto contigo.</p>
 
-            <a href="./formulario.html"> Formulario de contacto</a>
+            <a href="./formulario.html"  class="texto" id="enlace"> Formulario de contacto</a>
            
         </footer>
    </body>
